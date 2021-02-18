@@ -8,5 +8,5 @@ patches:
       'css/vendor/font-awesome.css',
       'css/lms-certificates.css',
       ],
-      'output_filename': 'css/lms-certificates.css'
+      'output_filename': 'css/grv-lms-certificates.css'
     }

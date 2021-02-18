@@ -1,0 +1,6 @@
+name: groovetech
+version: 0.1.0
+patches:
+  openedx-lms-common-settings: |
+    MKTG_URLS['SOCIAL_FACEBOOKPAGE'] = 'https://www.facebook.com/groovetechnologycom'
+    MKTG_URLS['SOCIAL_LINKEDIN'] = 'https://www.linkedin.com/company/groove-technology'

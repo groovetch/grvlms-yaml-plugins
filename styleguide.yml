@@ -8,5 +8,5 @@ patches:
       'css/vendor/font-awesome.css',
       'css/lms-styleguide.css'
       ],
-      'output_filename': 'css/lms-styleguide.css'
+      'output_filename': 'css/grv-lms-styleguide.css'
     }

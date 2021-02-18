@@ -1,0 +1,12 @@
+name: styleguide
+version: 0.1.0
+patches:
+  openedx-lms-common-settings: |
+    MKTG_URL_LINK_MAP['STYLEGUIDE'] = 'styleguide'
+    PIPELINE_CSS['style-styleguide'] = {
+      'source_filenames': [
+      'css/vendor/font-awesome.css',
+      'css/lms-styleguide.css'
+      ],
+      'output_filename': 'css/lms-styleguide.css'
+    }
